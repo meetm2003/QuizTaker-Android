@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupPage">
+
+  <TextView
+      android:id="@+id/Signup"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Signup"
+      android:textSize="30sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.189" />
+
+  <EditText
+      android:id="@+id/NameEditText"
+      android:layout_width="244dp"
+      android:layout_height="58dp"
+      android:ems="10"
+      android:hint="Name"
+      android:inputType="text"
+      android:textSize="23sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/Signup"
+      app:layout_constraintVertical_bias="0.104" />
+
+  <EditText
+      android:id="@+id/EmailEditText"
+      android:layout_width="244dp"
+      android:layout_height="58dp"
+      android:ems="10"
+      android:hint="Email"
+      android:inputType="textEmailAddress"
+      android:textSize="23sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/NameEditText"
+      app:layout_constraintVertical_bias="0.062" />
+
+  <EditText
+      android:id="@+id/CPassEditText"
+      android:layout_width="244dp"
+      android:layout_height="58dp"
+      android:ems="10"
+      android:hint="Password"
+      android:inputType="textPassword"
+      android:textSize="23sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/EmailEditText"
+      app:layout_constraintVertical_bias="0.081" />
+
+  <EditText
+      android:id="@+id/CPassEditText"
+      android:layout_width="244dp"
+      android:layout_height="58dp"
+      android:ems="10"
+      android:hint="Confirm Password"
+      android:inputType="textPassword"
+      android:textSize="23sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.497"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/CPassEditText"
+      app:layout_constraintVertical_bias="0.639" />
+
+  <Button
+      android:id="@+id/SignupBtn"
+      android:layout_width="127dp"
+      android:layout_height="62dp"
+      android:text="signup"
+      android:textSize="23sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.504"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/CPassEditText"
+      app:layout_constraintVertical_bias="0.287" />
+</androidx.constraintlayout.widget.ConstraintLayout>

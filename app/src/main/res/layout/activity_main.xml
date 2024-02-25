@@ -20,7 +20,7 @@
         app:layout_constraintVertical_bias="0.252" />
 
     <EditText
-        android:id="@+id/PassTextView"
+        android:id="@+id/EditTextEmail"
         android:layout_width="244dp"
         android:layout_height="58dp"
         android:ems="10"
@@ -45,7 +45,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextPass"
         app:layout_constraintVertical_bias="0.289" />
 
     <Button
@@ -62,7 +62,7 @@
         app:layout_constraintVertical_bias="0.14" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/EditTextPass"
         android:layout_width="244dp"
         android:layout_height="58dp"
         android:ems="10"
@@ -73,6 +73,21 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/PassTextView"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextEmail"
         app:layout_constraintVertical_bias="0.083" />
+
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:showText="false"
+        android:switchTextAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:text="User"
+        android:textOff="User"
+        android:textOn="Admin"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/LoginBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/EditTextPass" />
 </androidx.constraintlayout.widget.ConstraintLayout>

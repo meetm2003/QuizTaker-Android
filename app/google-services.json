@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "71163825349",
+    "project_id": "quiztaker-1de0d",
+    "storage_bucket": "quiztaker-1de0d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:71163825349:android:bf4223504d690aa94474ac",
+        "android_client_info": {
+          "package_name": "com.example.quiztaker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEDHrbpZDJZKrUN1oo4ZdO88Ik4rlSFZk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

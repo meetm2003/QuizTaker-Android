@@ -50,7 +50,7 @@
       app:layout_constraintVertical_bias="0.062" />
 
   <EditText
-      android:id="@+id/CPassEditText"
+      android:id="@+id/PassEditText"
       android:layout_width="244dp"
       android:layout_height="58dp"
       android:ems="10"
@@ -65,7 +65,7 @@
       app:layout_constraintVertical_bias="0.081" />
 
   <EditText
-      android:id="@+id/CPassEditText"
+      android:id="@+id/CpassEditText"
       android:layout_width="244dp"
       android:layout_height="58dp"
       android:ems="10"
@@ -74,10 +74,9 @@
       android:textSize="23sp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.497"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/CPassEditText"
-      app:layout_constraintVertical_bias="0.639" />
+      app:layout_constraintTop_toBottomOf="@+id/PassEditText"
+      app:layout_constraintVertical_bias="0.11" />
 
   <Button
       android:id="@+id/SignupBtn"
@@ -87,8 +86,25 @@
       android:textSize="23sp"
       app:layout_constraintBottom_toBottomOf="parent"
       app:layout_constraintEnd_toEndOf="parent"
-      app:layout_constraintHorizontal_bias="0.504"
       app:layout_constraintStart_toStartOf="parent"
-      app:layout_constraintTop_toBottomOf="@+id/CPassEditText"
-      app:layout_constraintVertical_bias="0.287" />
+      app:layout_constraintTop_toBottomOf="@+id/CpassEditText"
+      app:layout_constraintVertical_bias="0.373" />
+
+  <Switch
+      android:id="@+id/switch1"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="86dp"
+      android:showText="false"
+      android:switchTextAppearance="@style/TextAppearance.AppCompat.Body2"
+      android:text="User"
+      android:textOff="User"
+      android:textOn="Admin"
+      android:textSize="18sp"
+      app:layout_constraintBottom_toTopOf="@+id/SignupBtn"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="@+id/CpassEditText"
+      app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
